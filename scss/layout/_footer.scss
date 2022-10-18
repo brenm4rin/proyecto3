@@ -1,0 +1,17 @@
+footer {
+    border: 1px solid #000000;
+    background-color: #C5C5C5;
+    padding: 40px;
+}
+
+.contactoo {
+    padding: 20px;
+    font-weight: bold;
+    color: #000000;
+    transition-duration: 2s;
+    transition-property: all;
+
+    &:hover {
+        transform: rotate(35deg);
+    }
+}
